@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct RRR_ProtokolleApp: App {
+    @StateObject private var authViewModel = AuthViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(authViewModel)
         }
     }
 }

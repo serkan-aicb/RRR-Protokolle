@@ -1,0 +1,37 @@
+{
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/ViewModels/NewOrderViewModel.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/NewOrderViewModel.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/NewOrderViewModel.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/NewOrderViewModel.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/NewOrderViewModel.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/NewOrderViewModel.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/CompletedOrders/CompletedOrdersListView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersListView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersListView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersListView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersListView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersListView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/CompletedOrders/OrderDetailView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/OrderDetailView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/OrderDetailView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/OrderDetailView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/OrderDetailView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/OrderDetailView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/Login/LoginView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/LoginView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/LoginView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/LoginView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/LoginView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/LoginView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/MainMenu/MainMenuView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/MainMenuView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/MainMenuView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/MainMenuView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/MainMenuView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/MainMenuView.swiftdeps"
+  }
+}

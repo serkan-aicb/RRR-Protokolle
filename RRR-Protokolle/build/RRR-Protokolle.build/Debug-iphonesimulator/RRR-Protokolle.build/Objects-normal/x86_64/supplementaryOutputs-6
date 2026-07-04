@@ -1,0 +1,37 @@
+{
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/AuthService.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/AuthService.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/AuthService.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/AuthService.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/AuthService.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/AuthService.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/CameraController.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraController.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraController.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraController.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraController.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraController.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/ImageCompressionService.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageCompressionService.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageCompressionService.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageCompressionService.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageCompressionService.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageCompressionService.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/LocalStorageService.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LocalStorageService.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LocalStorageService.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LocalStorageService.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LocalStorageService.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LocalStorageService.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/MIMEMessageBuilder.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/MIMEMessageBuilder.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/MIMEMessageBuilder.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/MIMEMessageBuilder.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/MIMEMessageBuilder.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/MIMEMessageBuilder.swiftdeps"
+  }
+}

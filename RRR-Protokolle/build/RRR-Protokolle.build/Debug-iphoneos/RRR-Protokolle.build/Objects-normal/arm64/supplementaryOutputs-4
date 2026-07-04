@@ -1,0 +1,37 @@
+{
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/PDFService.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/PDFService.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/PDFService.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/PDFService.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/PDFService.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/PDFService.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/SMTPService.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPService.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPService.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPService.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPService.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPService.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/SMTPTransport.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPTransport.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPTransport.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPTransport.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPTransport.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SMTPTransport.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Services/SpeechService.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SpeechService.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SpeechService.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SpeechService.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SpeechService.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/SpeechService.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Utilities/CompanyConfig.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompanyConfig.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompanyConfig.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompanyConfig.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompanyConfig.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphoneos/RRR-Protokolle.build/Objects-normal/arm64/CompanyConfig.swiftdeps"
+  }
+}

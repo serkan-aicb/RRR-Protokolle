@@ -1,0 +1,37 @@
+{
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/NewOrder/CameraStepView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraStepView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraStepView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraStepView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraStepView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraStepView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/NewOrder/CustomerDataStepView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CustomerDataStepView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CustomerDataStepView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CustomerDataStepView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CustomerDataStepView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CustomerDataStepView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/NewOrder/NewOrderFlowView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/NewOrderFlowView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/NewOrderFlowView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/NewOrderFlowView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/NewOrderFlowView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/NewOrderFlowView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/NewOrder/SignatureStepView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/SignatureStepView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/SignatureStepView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/SignatureStepView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/SignatureStepView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/SignatureStepView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Views/NewOrder/TextStepView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/TextStepView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/TextStepView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/TextStepView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/TextStepView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/TextStepView.swiftdeps"
+  }
+}

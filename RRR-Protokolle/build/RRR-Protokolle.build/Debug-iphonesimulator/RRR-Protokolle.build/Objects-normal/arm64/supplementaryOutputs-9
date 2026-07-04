@@ -1,0 +1,37 @@
+{
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Utilities/Extensions.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Extensions.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Extensions.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Extensions.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Extensions.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Extensions.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Utilities/SMTPConfig.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/SMTPConfig.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/SMTPConfig.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/SMTPConfig.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/SMTPConfig.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/SMTPConfig.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Utilities/Theme.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Theme.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Theme.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Theme.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/Theme.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/ViewModels/AuthViewModel.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/AuthViewModel.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/AuthViewModel.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/AuthViewModel.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/AuthViewModel.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/AuthViewModel.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/ViewModels/CompletedOrdersViewModel.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersViewModel.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersViewModel.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersViewModel.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersViewModel.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/arm64/CompletedOrdersViewModel.swiftdeps"
+  }
+}

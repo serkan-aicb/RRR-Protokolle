@@ -1,0 +1,37 @@
+{
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Components/CameraPreviewView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraPreviewView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraPreviewView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraPreviewView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraPreviewView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/CameraPreviewView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Components/ImageThumbnailGrid.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageThumbnailGrid.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageThumbnailGrid.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageThumbnailGrid.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageThumbnailGrid.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/ImageThumbnailGrid.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Components/LabeledTextField.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LabeledTextField.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LabeledTextField.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LabeledTextField.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LabeledTextField.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/LabeledTextField.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Components/PDFPreviewView.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PDFPreviewView.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PDFPreviewView.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PDFPreviewView.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PDFPreviewView.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PDFPreviewView.swiftdeps"
+  },
+  "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/RRR-Protokolle/Components/PrimaryButton.swift" : {
+    "const-values" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PrimaryButton.swiftconstvalues",
+    "dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PrimaryButton.d",
+    "diagnostics" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PrimaryButton.dia",
+    "object" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PrimaryButton.o",
+    "swift-dependencies" : "/Users/corvus/Projects/RRR-Protokolle/RRR-Protokolle/build/RRR-Protokolle.build/Debug-iphonesimulator/RRR-Protokolle.build/Objects-normal/x86_64/PrimaryButton.swiftdeps"
+  }
+}
