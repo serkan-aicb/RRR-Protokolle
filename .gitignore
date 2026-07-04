@@ -1,0 +1,29 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/swiftpm
+*.xcuserstate
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm
+
+# CocoaPods (falls später genutzt)
+Pods/
+
+# macOS
+.DS_Store
+
+# Geheimnisse / lokale Zugangsdaten – niemals committen
+RRR-Protokolle/RRR-Protokolle/Utilities/SMTPConfig.swift
+*.secrets.swift
