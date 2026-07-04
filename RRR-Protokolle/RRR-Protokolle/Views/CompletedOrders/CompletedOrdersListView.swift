@@ -18,12 +18,22 @@ struct CompletedOrdersListView: View {
                         .foregroundStyle(.secondary)
                 }
             } else {
-                List(viewModel.orders) { order in
-                    NavigationLink {
-                        OrderDetailView(order: order)
-                    } label: {
-                        OrderRow(order: order)
+                List {
+                    ForEach(viewModel.orders) { order in
+                        NavigationLink {
+                            OrderDetailView(order: order)
+                        } label: {
+                            OrderRow(order: order)
+                        }
+                        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                            Button(role: .destructive) {
+                                viewModel.delete(order)
+                            } label: {
+                                Label("Löschen", systemImage: "trash")
+                            }
+                        }
                     }
+                    .onDelete(perform: viewModel.deleteOrders)
                 }
                 .listStyle(.plain)
             }

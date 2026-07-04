@@ -5,16 +5,24 @@ import Combine
 
 /// Nutzt ausschließlich die nativen Apple-Sprachfunktionen (Speech-Framework)
 /// zur Diktat-Erfassung. Keine externe KI, keine kostenpflichtigen APIs.
+///
+/// Während der Aufnahme wird bewusst nichts live im Textfeld angezeigt –
+/// erst wenn der Monteur die Aufnahme beendet, wird komplett zugehört und
+/// das Ergebnis in einem Rutsch zu einem sauberen, formatierten Satz
+/// zusammengefasst (Großschreibung, Satzzeichen, keine Füllwörter).
 @MainActor
 final class SpeechService: NSObject, ObservableObject {
-    @Published var transcript: String = ""
     @Published var isRecording = false
+    @Published var isProcessing = false
+    @Published var finalizedText: String?
     @Published var errorMessage: String?
 
     private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "de-DE"))
     private let audioEngine = AVAudioEngine()
     private var request: SFSpeechAudioBufferRecognitionRequest?
     private var task: SFSpeechRecognitionTask?
+    private var rawTranscript = ""
+    private var finalizeWatchdog: DispatchWorkItem?
 
     /// Füllwörter, die selbst dann entfernt werden, falls der Erkenner sie
     /// wortwörtlich transkribiert, damit der Text natürlich wirkt.
@@ -44,10 +52,15 @@ final class SpeechService: NSObject, ObservableObject {
 
             let newRequest = SFSpeechAudioBufferRecognitionRequest()
             newRequest.shouldReportPartialResults = true
+            if #available(iOS 16.0, *) {
+                newRequest.addsPunctuation = true
+            }
             if recognizer.supportsOnDeviceRecognition {
                 newRequest.requiresOnDeviceRecognition = true
             }
             request = newRequest
+            rawTranscript = ""
+            finalizedText = nil
 
             let inputNode = audioEngine.inputNode
             let format = inputNode.outputFormat(forBus: 0)
@@ -65,34 +78,72 @@ final class SpeechService: NSObject, ObservableObject {
                 guard let self else { return }
                 Task { @MainActor in
                     if let result {
-                        self.transcript = Self.cleaned(result.bestTranscription.formattedString)
+                        self.rawTranscript = result.bestTranscription.formattedString
                     }
                     if error != nil || (result?.isFinal ?? false) {
-                        self.stopRecording()
+                        self.finalizeRecognition()
                     }
                 }
             }
         } catch {
             errorMessage = "Aufnahme konnte nicht gestartet werden."
-            stopRecording()
+            cancelRecording()
         }
     }
 
+    /// Beendet die Aufnahme. Das Diktat wird erst jetzt – nach vollständigem
+    /// Zuhören – zu einem sauberen Text zusammengefasst und über
+    /// `finalizedText` bereitgestellt.
     func stopRecording() {
-        guard isRecording || audioEngine.isRunning else { return }
+        guard isRecording else { return }
+        isRecording = false
+        isProcessing = true
+
         audioEngine.stop()
         audioEngine.inputNode.removeTap(onBus: 0)
         request?.endAudio()
+        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+
+        // Falls der Erkenner nach dem Ende der Aufnahme kein finales Ergebnis
+        // mehr liefert, wird nach kurzer Wartezeit trotzdem finalisiert.
+        let watchdog = DispatchWorkItem { [weak self] in self?.finalizeRecognition() }
+        finalizeWatchdog = watchdog
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: watchdog)
+    }
+
+    /// Bricht die Aufnahme ohne Ergebnis ab (z. B. bei einem Startfehler).
+    func cancelRecording() {
+        finalizeWatchdog?.cancel()
+        finalizeWatchdog = nil
+        audioEngine.stop()
+        audioEngine.inputNode.removeTap(onBus: 0)
         task?.cancel()
         task = nil
         request = nil
+        rawTranscript = ""
         isRecording = false
-        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        isProcessing = false
     }
 
-    /// Entfernt gängige Füllwörter und normalisiert Leerzeichen, damit der
-    /// erkannte Text möglichst natürlich wirkt.
-    private static func cleaned(_ text: String) -> String {
+    private func finalizeRecognition() {
+        guard isProcessing || isRecording else { return }
+        finalizeWatchdog?.cancel()
+        finalizeWatchdog = nil
+
+        let beautified = SpeechTextFormatter.beautify(Self.removingFillerWords(rawTranscript))
+        finalizedText = beautified
+
+        task?.cancel()
+        task = nil
+        request = nil
+        rawTranscript = ""
+        isRecording = false
+        isProcessing = false
+    }
+
+    /// Entfernt gängige Füllwörter, falls der Erkenner sie wortwörtlich
+    /// transkribiert hat, damit der Text natürlich wirkt.
+    private static func removingFillerWords(_ text: String) -> String {
         let words = text.split(separator: " ")
         let filtered = words.filter { !fillerWords.contains($0.lowercased()) }
         return filtered.joined(separator: " ")

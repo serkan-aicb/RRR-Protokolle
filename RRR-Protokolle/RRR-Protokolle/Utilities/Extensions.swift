@@ -9,6 +9,13 @@ extension Date {
         return formatter.string(from: self)
     }
 
+    var germanShortDateString: String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "de_DE")
+        formatter.dateFormat = "dd.MM.yyyy"
+        return formatter.string(from: self)
+    }
+
     var germanDateTimeString: String {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "de_DE")

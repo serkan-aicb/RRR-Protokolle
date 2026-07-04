@@ -15,6 +15,7 @@ struct RRR_ProtokolleApp: App {
         WindowGroup {
             RootView()
                 .environmentObject(authViewModel)
+                .preferredColorScheme(.light)
         }
     }
 }

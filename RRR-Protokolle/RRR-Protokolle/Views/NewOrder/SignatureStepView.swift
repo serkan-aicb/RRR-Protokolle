@@ -15,6 +15,18 @@ struct SignatureStepView: View {
                     topButton(systemImage: "chevron.left") {
                         viewModel.backToText()
                     }
+
+                    if !viewModel.draft.text.isEmpty {
+                        ScrollView {
+                            Text(viewModel.draft.text)
+                                .font(.footnote)
+                                .foregroundStyle(.black)
+                                .padding(10)
+                        }
+                        .frame(maxHeight: 90)
+                        .background(.white.opacity(0.85), in: RoundedRectangle(cornerRadius: 10))
+                    }
+
                     Spacer()
                     topButton(systemImage: "arrow.counterclockwise") {
                         padController.clear()
@@ -22,7 +34,7 @@ struct SignatureStepView: View {
                 }
                 Spacer()
                 HStack(alignment: .bottom) {
-                    Text(Date().germanDateString)
+                    Text(dateAndCity)
                         .font(.headline)
                         .foregroundStyle(.black)
                         .padding(10)
@@ -64,6 +76,12 @@ struct SignatureStepView: View {
                 dismiss()
             }
         }
+    }
+
+    private var dateAndCity: String {
+        let city = viewModel.draft.customer.city.trimmingCharacters(in: .whitespaces)
+        guard !city.isEmpty else { return Date().germanShortDateString }
+        return "\(Date().germanShortDateString), \(city)"
     }
 
     private func topButton(systemImage: String, action: @escaping () -> Void) -> some View {

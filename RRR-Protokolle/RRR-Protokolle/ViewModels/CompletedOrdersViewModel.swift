@@ -18,4 +18,16 @@ final class CompletedOrdersViewModel: ObservableObject {
     func reload() {
         orders = storage.loadOrders(for: user.username)
     }
+
+    func deleteOrders(at offsets: IndexSet) {
+        for index in offsets {
+            storage.deleteOrder(orders[index])
+        }
+        orders = orders.enumerated().filter { !offsets.contains($0.offset) }.map(\.element)
+    }
+
+    func delete(_ order: Order) {
+        storage.deleteOrder(order)
+        orders.removeAll { $0.id == order.id }
+    }
 }

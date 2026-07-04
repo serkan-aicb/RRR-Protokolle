@@ -402,6 +402,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Die Kamera wird benötigt, um Fotos für das Auftragsprotokoll aufzunehmen.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Das Mikrofon wird benötigt, um Auftragstexte per Spracheingabe zu diktieren.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Aufgenommene Fotos werden zusätzlich in deiner Fotomediathek gespeichert.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Die Spracherkennung wird benötigt, um diktierte Auftragstexte in Text umzuwandeln.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -437,6 +438,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Die Kamera wird benötigt, um Fotos für das Auftragsprotokoll aufzunehmen.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Das Mikrofon wird benötigt, um Auftragstexte per Spracheingabe zu diktieren.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Aufgenommene Fotos werden zusätzlich in deiner Fotomediathek gespeichert.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Die Spracherkennung wird benötigt, um diktierte Auftragstexte in Text umzuwandeln.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

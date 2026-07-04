@@ -6,7 +6,7 @@ import Combine
 /// die Unterschrift exportieren oder löschen kann.
 final class SignaturePadController: ObservableObject {
     @Published var isEmpty: Bool = true
-    fileprivate weak var drawView: SignatureDrawView?
+    fileprivate weak var drawView: SignatureDrawView?E
 
     func clear() {
         drawView?.clear()

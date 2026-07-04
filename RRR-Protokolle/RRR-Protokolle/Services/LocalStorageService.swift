@@ -193,4 +193,10 @@ final class LocalStorageService {
     func signatureURL(for order: Order) -> URL {
         orderDirectory(for: order).appendingPathComponent(order.signatureFileName)
     }
+
+    /// Löscht einen abgeschlossenen Auftrag inklusive aller Fotos, der
+    /// Unterschrift und des PDFs unwiderruflich vom Gerät.
+    func deleteOrder(_ order: Order) {
+        try? fileManager.removeItem(at: orderDirectory(for: order))
+    }
 }

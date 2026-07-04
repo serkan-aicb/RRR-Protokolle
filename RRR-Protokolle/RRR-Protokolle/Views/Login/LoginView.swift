@@ -13,12 +13,14 @@ struct LoginView: View {
             VStack(spacing: Theme.spacing) {
                 Spacer(minLength: 60)
 
-                VStack(spacing: 8) {
-                    Image(systemName: "wrench.and.screwdriver.fill")
-                        .font(.system(size: 48))
-                        .foregroundStyle(Theme.accent)
-                    Text("RRR-Protokolle")
-                        .font(.largeTitle.bold())
+                VStack(spacing: 12) {
+                    Image("CompanyLogo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(maxWidth: 260)
+                    Text("Protokolle")
+                        .font(.title3.weight(.medium))
+                        .foregroundStyle(Theme.textSecondary)
                 }
 
                 VStack(spacing: 16) {

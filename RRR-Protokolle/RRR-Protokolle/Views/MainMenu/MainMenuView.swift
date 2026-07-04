@@ -6,10 +6,18 @@ struct MainMenuView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: Theme.spacing) {
+                Image("CompanyLogo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(maxWidth: 200)
+                    .padding(.top, 24)
+
+                Spacer()
+
                 if let user = authViewModel.currentUser {
-                    Text("Hallo, \(user.firstName)")
+                    Text("Hi \(user.firstName)!")
                         .font(.title2.bold())
-                        .padding(.top, 24)
+                        .foregroundStyle(Theme.textPrimary)
                 }
 
                 Spacer()
@@ -43,8 +51,8 @@ struct MainMenuView: View {
                 Spacer()
             }
             .background(Theme.background)
-            .navigationTitle("RRR-Protokolle")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbarBackground(Theme.background, for: .navigationBar)
         }
     }
 }
@@ -62,7 +70,7 @@ private struct MenuCard: View {
 
             Text(title)
                 .font(.title2.weight(.semibold))
-                .foregroundStyle(.primary)
+                .foregroundStyle(Theme.textPrimary)
 
             Spacer()
 

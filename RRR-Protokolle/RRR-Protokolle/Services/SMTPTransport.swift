@@ -74,7 +74,7 @@ final class SMTPTransport {
 
     private func writeRaw(_ string: String) throws {
         guard let outputStream else { throw SMTPError.connectionFailed }
-        var bytes = Array(string.utf8)
+        let bytes = Array(string.utf8)
         var totalWritten = 0
 
         while totalWritten < bytes.count {
@@ -88,7 +88,6 @@ final class SMTPTransport {
             if written <= 0 { throw SMTPError.connectionFailed }
             totalWritten += written
         }
-        _ = bytes // silence unused warning on some toolchains
     }
 
     // MARK: - Lesen

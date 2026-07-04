@@ -132,6 +132,7 @@ struct CameraStepView: View {
     private func capturePhoto() {
         camera.capturePhoto { image in
             viewModel.addCapturedImage(image)
+            PhotoLibraryService.save(image)
             withAnimation { showCapturedPreview = true }
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 withAnimation { showCapturedPreview = false }
